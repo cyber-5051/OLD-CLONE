@@ -1,6 +1,6 @@
-import os
-from khan import __BNG_71__
-if __name__ == "__main__":
-    os.system('clear')  # or 'cls' for Windows
-    obj = __BNG_71__()
-    obj.__BNG_71__()
+import platform
+b = platform.architecture()[0]
+if b == '64bit':
+    import nv1
+else:
+    print("32bit Not Supported!")
